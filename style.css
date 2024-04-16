@@ -55,3 +55,7 @@
   .escola-titulo {
     padding: 24px 0;/*superior e inferior e direita e esquerda*/
   }
+
+  .estudante-div{
+    width: 30%;
+  }
