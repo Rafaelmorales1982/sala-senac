@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /*----------Parte do cabeçalho -------------*/
+  .cabecalho-imagem {
+    width: 20%;/*largura da imagem*/
+  }
+
+  .cabecalho {
+    background-color: #383d58;/*Cor de fundo */
+    display: flex;/*coloca os elementos ao lado*/
+    justify-content: space-around;/*espaçamentos entre os elementos e nos lados externos*/
+    align-items: center; /*colocando os itens ao centro (Verticalmente) */
+    padding: 24px 0;
+  }
+
+  .cabecalho-lista-item {
+    display: inline-block;/*colocando em linha os elementos*/
+    margin: 0 16px; /*0 superior   e 16px direita e esquerda*/
+    color: #ffffff; /*cor do da font texto*/
+ }
+
+ a {
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+  }
+
+  a:hover {
+    color: burlywood;
+  }
+
+  /*-----------------Seção escola----------------*/
+  .escola-imagem {
+    width: 25%;
+  }
+
+  .escola {
+    background-image: linear-gradient( #383D58, #4EBFE9 );
+    color: white;/*cor do texto*/
+    display: flex;/*coloca os elementos lado a lado*/
+    justify-content: center;/*centralizando os elementos dentro
+     .escola indo para o centro da página*/
+    align-items: center;/*alinha ao centro da caixa superior e inferior*/
+    padding: 24px 0;/*superior e inferior direita e esquerda*/
+  }
+
+  .escola-div-conteudo {
+    width: 35%;
+  }
+
+  .escola-titulo {
+    padding: 24px 0;/*superior e inferior e direita e esquerda*/
+  }
