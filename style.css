@@ -56,6 +56,10 @@
     padding: 24px 0;/*superior e inferior e direita e esquerda*/
   }
 
-  .estudante-div{
+  .estudante-imagem {
     width: 30%;
+  }
+
+  .estudante-icone{
+    width: 5%;
   }
